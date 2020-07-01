@@ -25,12 +25,11 @@ int jugarRondasVersus(int cantRondas,int cantJugadores,string nombre[],int punto
             locate(10,18);
             cout<<"Presione una tecla para continuar"<<endl;
             locate(10,22);
-            anykey();
-
-
             if(j+1<cantJugadores){
                 cout<<"EL PROXIMO TURNO ES DE "<<nombre[j+1];
             }
+            anykey();
+
 
         }
 
@@ -38,11 +37,13 @@ int jugarRondasVersus(int cantRondas,int cantJugadores,string nombre[],int punto
         if(ronda<cantRondas){
                 dibujaCartelRonda(ronda,cantJugadores,nombre,puntos);
                 locate(1,1);
-                cout<<"Escape para finalizar";
+                cout<<"Escape para finalizar"<<endl;
+                locate(1,22);
+                cout<<"EL PROXIMO TURNO ES DE "<<nombre[0];
                 if(getkey()==KEY_ESCAPE){
                     jugar = false;
                 }
-                cout<<"EL PROXIMO TURNO ES DE "<<nombre[0];
+
         }
 
         //si alguno de los jugadores tuvo puntaje de Generala Servida se deja de jugar en esta ronda
