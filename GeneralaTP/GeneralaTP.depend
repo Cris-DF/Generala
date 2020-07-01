@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1593627667 source:c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\main.cpp
+	<iostream>
+	<stdlib.h>
+	"rlutil.h"
+	<time.h>
+	"funGraficas.h"
+	"record.h"
+	"jugarSolo.h"
+	"jugarVersus.h"
+
+1593193947 source:c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\funciones.cpp
+	<iostream>
+
+1593194101 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\funciones.cpp
+	<iostream>
+
+1593458835 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\funciones.h
+
+1593630864 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\jugarsolo.h
+	"funRonda.h"
+
+1571584339 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1593580999 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\fungraficas.h
+
+1593581324 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\funcalcpuntos.h
+
+1593575743 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\funronda.h
+	"funCalcPuntos.h"
+
+1593627876 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\record.h
+
+1593630864 c:\users\cristian\desktop\frgp primer cuatri\lab1\generalatp\jugarversus.h
+
